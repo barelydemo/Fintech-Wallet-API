@@ -26,7 +26,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * Validates: Requirements 7.1, 7.2, 7.3, 7.4
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@Transactional
 class TransferControllerIntegrationTest {
     
     @Autowired
