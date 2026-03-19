@@ -42,6 +42,7 @@ Thumbs.db
 *.dump
 surefire-reports/
 failsafe-reports/
+.jqwik-database
 docker-compose.override.yml
 node_modules/
 dist/

@@ -71,6 +71,22 @@
             <artifactId>h2</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- jqwik for Property-Based Testing -->
+        <dependency>
+            <groupId>net.jqwik</groupId>
+            <artifactId>jqwik</artifactId>
+            <version>1.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- jqwik Spring Support -->
+        <dependency>
+            <groupId>net.jqwik</groupId>
+            <artifactId>jqwik-spring</artifactId>
+            <version>0.9.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
